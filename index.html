@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>すがわら なおや です！</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", sans-serif;
+      background: linear-gradient(135deg, #fff9c4 0%, #ffe0f0 50%, #d0f0ff 100%);
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    .card {
+      max-width: 640px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 32px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.10);
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .hero .avatar {
+      font-size: 80px;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      color: #ff6b9d;
+      letter-spacing: 0.05em;
+    }
+
+    .hero .yomi {
+      font-size: 1rem;
+      color: #aaa;
+      margin-top: 4px;
+    }
+
+    .section {
+      background: #f9f9f9;
+      border-radius: 20px;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      color: #555;
+    }
+
+    .section.blue   { background: #e8f4ff; }
+    .section.pink   { background: #fff0f6; }
+    .section.yellow { background: #fffbe6; }
+    .section.green  { background: #edfff4; }
+    .section.purple { background: #f5f0ff; }
+
+    .location {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #3a9ad9;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1.05rem;
+    }
+
+    table th {
+      background: #ffb6d9;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 8px 8px 0 0;
+      text-align: left;
+    }
+
+    table td {
+      padding: 8px 12px;
+      border-bottom: 2px dashed #ffd6ec;
+    }
+
+    table tr:last-child td { border-bottom: none; }
+
+    .job {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #e05a9f;
+    }
+
+    .likes {
+      list-style: none;
+      font-size: 1.15rem;
+    }
+
+    .likes li {
+      padding: 6px 0;
+      color: #2a9a5a;
+      font-weight: bold;
+    }
+
+    .likes li::before {
+      content: "✅ ";
+    }
+
+    blockquote {
+      border-left: 6px solid #b39ddb;
+      padding-left: 16px;
+      margin-top: 4px;
+    }
+
+    .kotoba-main {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #7c4dff;
+    }
+
+    .kotoba-sub {
+      font-size: 1rem;
+      color: #888;
+      margin-top: 6px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #ff6b9d;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <div class="hero">
+      <div class="avatar">🙋</div>
+      <h1>すがわら なおや です！</h1>
+      <div class="yomi">菅原 直哉</div>
+    </div>
+
+    <div class="section blue">
+      <h2>🏠 どこにすんでいるの？</h2>
+      <div class="location">東京都 調布市（ちょうふし）</div>
+    </div>
+
+    <div class="section pink">
+      <h2>👨‍👩‍👧‍👦 かぞく</h2>
+      <table>
+        <thead>
+          <tr><th>なまえ</th><th>なんさい？</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>拓翔（たくと）</td><td>9さい</td></tr>
+          <tr><td>伊織（いおり）</td><td>7さい</td></tr>
+          <tr><td>深鈴（みすず）</td><td>4さい</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section yellow">
+      <h2>💊 おしごと</h2>
+      <div class="job">くすりのせんせい（薬剤師）です！</div>
+    </div>
+
+    <div class="section green">
+      <h2>⚽ すきなこと</h2>
+      <ul class="likes">
+        <li>サッカーをみること</li>
+        <li>こどもたちとあそぶこと</li>
+      </ul>
+    </div>
+
+    <div class="section purple">
+      <h2>💬 すきなことば</h2>
+      <blockquote>
+        <div class="kotoba-main">一期一会（いちごいちえ）</div>
+        <div class="kotoba-sub">「いまこの出会いを大切に！」という意味だよ</div>
+      </blockquote>
+    </div>
+
+    <div class="footer">よろしくね！😊</div>
+
+  </div>
+</body>
+</html>
